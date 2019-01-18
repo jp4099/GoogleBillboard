@@ -3,9 +3,9 @@ public void setup()
 {            
   for (int i = 2; i < e.length()-10; i++){
     String original = e.substring(i, i+10);
-    double prime = Double.parseDouble(original);
-    if (isPrime(prime) == true){
-      System.out.println(prime);
+    double number = Double.parseDouble(original);
+    if (isPrime(number) == true){
+      System.out.println(number);
     }
   }
 }  
